@@ -37,7 +37,7 @@ body{
 
 .row_form{
     margin: 10px 0;
-    width: 100px;
+    width: 100%;
     display: flex;
 }
 
@@ -55,6 +55,32 @@ body{
     font-weight: 400;
     font-size: 16px;
     border-radius: 5px;
-    
+    border: 1px solid #3d3d3d;
+    height: 30px;
+    padding: 8px;
+    width: 70%;
+}
 
+.button_form{
+    margin-top: 15px;
+    font-family: 'Truculenta', sans-serif;
+    font-weight: 600;
+    text-transform: lowercase;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 15px;
+    border: 1px solid #3d3d3d;
+    width: 100%;
+    background-color: #fff;
+}
+
+.button_form:hover{
+    box-shadow: 0px 0px 10px #3d3d3d;
+    transition: all ease-in-out .5s;
+}
+
+.form{
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
 }
